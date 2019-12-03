@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+/* #one-page{
+    height: 100%;
+    background-image: url("../assets/IMG/bg1.jpg");
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto ;
+    
+} */
+.with-image{
+
+    background-image: url("../IMG/banner-background-1.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: red;
+}
+.container{
+    position: relative;
+    top: 15%;
+}
+h1{
+    font-size: 50px;
+    color: black;
+}
+
+#one-page{
+    height: 150%;
+    background-image: url("../IMG/bg1.jpg");
+    background-size: auto;
+    -webkit-background-size: auto;
+    -moz-background-size: auto;
+    -o-background-size: auto ; 
+}
+.text-light{
+    color: black;
+}
